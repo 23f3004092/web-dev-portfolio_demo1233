@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billa_dev</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .project {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .project img {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+
+        .project-details {
+            flex-grow: 1;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #333;
+            color: #fff;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+
+            .project {
+                flex-direction: column;
+            }
+
+            .project img {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Billa Dev</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <div class="container">
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgICAgMCAgIDAwMEBQQEBQoFBgcGBQYICAcJCAgHBgIeIwoKJCYjGR8jGBwkMioKCYYHGR8jGBwkMioKCYYHGR+f/2wBDAQMDAwMDBgMEBgQGBgcJHBYWGBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcH/wAARCAAeABoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAwIEBQYHCAkKCwEAAgMBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLBQAAAQMCBAQDBQQFCgQGAwAAAAECAwQSABEFMQYHEiEIIQoRUwI9GhBhQW0fDhCBQW0fDhCBQW0fDhEAAAgEAgABBQcEAgIKCwMJBwUBAAMBAgMRBBITFSExQYIHEhUeFRMjTBkaG0wdJz0kMjU+O0wIKSBQEAgAAgEDAgIFBAQFAw0GAiEiEQEAIQIiMTJBM0Q0RFNyRFNyRFNyRFNyRFNyRFNyRFNyRFNyRAAAAgEAgABBQcEAgIKCwMJBwUBAAMBAgMRBBITFSExQYIHEhUeFRMjTBkaG0wdJz0kMjU+O0wIKSBQEAAAgEAgABBQcEAgIKCwMJBwUBAAMBAgMRBBITFSExQYIHEhUeFRMjTBkaG0wdJz0kMjU+O0wIKSBQERAQAQEBBAQERAQAQEBBAAAAABAQEAAQEBAQERAQAQEBBAQERAQAQEBBAAAAhEQEREEABEQEREEABEQEREEAAAAAiIiIiIgIiIiIiAiIgIAAAAAAAAAAAAf/2gAMAwEAAhEDEQAAAf8A/8QAHwAAAQUBAQEBAQEAAAAAAAAAAwIEBQYHCAkKCwEAAgMBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLBQAAAQMCBAQDBQQFCgQGAwAAAAECAwQSABEFMQYHEiEIIQoRUwI9GhBhQW0fDhCBQW0fDhCBQW0fDhEAAAgEAgABBQcEAgIKCwMJBwUBAAMBAgMRBBITFSExQYIHEhUeFRMjTBkaG0wdJz0kMjU+O0wIKSBQEAgAAgEDAgIFBAQFAw0GAiEiEQEAIQIiMTJBM0Q0RFNyRFNyRFNyRFNyRFNyRFNyRFNyRFNyRAAAAgEAgABBQcEAgIKCwMJBwUBAAMBAgMRBBITFSExQYIHEhUeFRMjTBkaG0wdJz0kMjU+O0wIKSBQEAAAgEAgABBQcEAgIKCwMJBwUBAAMBAgMRBBITFSExQYIHEhUeFRMjTBkaG0wdJz0kMjU+O0wIKSBQERAQAQEBBAQERAQAQEBBAAAAABAQEAAQEBAQERAQAQEBBAQERAQAQEBBAAAAhEQEREEABEQEREEABEQEREEAAAAAiIiIiIgIiIiIiAiIgIAAAAAAAAAAAAf/9k=" alt="Project 1">
+                <div class="project-details">
+                    <h3>Project 1: Simple Website</h3>
+                    <p>A basic website showcasing HTML, CSS, and JavaScript skills. Includes a responsive design.</p>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgICAgMCAgIDAwMEBQQEBQoFBgcGBQYICAcJCAgHBgIeIwoKJCYjGR8jGBwkMioKCYYHGR8jGBwkMioKCYYHGR+f/2wBDAQMDAwMDBgMEBgQGBgcJHBYWGBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcH/wAARCAAeABoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAwIEBQYHCAkKCwEAAgMBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLBQAAAQMCBAQDBQQFCgQGAwAAAAECAwQSABEFMQYHEiEIIQoRUwI9GhBhQW0fDhCBQW0fDhCBQW0fDhEAAAgEAgABBQcEAgIKCwMJBwUBAAMBAgMRBBITFSExQYIHEhUeFRMjTBkaG0wdJz0kMjU+O0wIKSBQEAgAAgEDAgIFBAQFAw0GAiEiEQEAIQIiMTJBM0Q0RFNyRFNyRFNyRFNyRFNyRFNyRFNyRFNyRAAAAgEAgABBQcEAgIKCwMJBwUBAAMBAgMRBBITFSExQYIHEhUeFRMjTBkaG0wdJz0kMjU+O0wIKSBQEAAAgEAgABBQcEAgIKCwMJBwUBAAMBAgMRBBITFSExQYIHEhUeFRMjTBkaG0wdJz0kMjU+O0wIKSBQERAQAQEBBAQERAQAQEBBAAAAABAQEAAQEBAQERAQAQEBBAQERAQAQEBBAAAAhEQEREEABEQEREEABEQEREEAAAAAiIiIiIgIiIiIiAiIgIAAAAAAAAAAAAf/2gAMAwEAAhEDEQAAAf/8QAHwAAAQUBAQEBAQEAAAAAAAAAAwIEBQYHCAkKCwEAAgMBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLBQAAAQMCBAQDBQQFCgQGAwAAAAECAwQSABEFMQYHEiEIIQoRUwI9GhBhQW0fDhCBQW0fDhCBQW0fDhEAAAgEAgABBQcEAgIKCwMJBwUBAAMBAgMRBBITFSExQYIHEhUeFRMjTBkaG0wdJz0kMjU+O0wIKSBQEAgAAgEDAgIFBAQFAw0GAiEiEQEAIQIiMTJBM0Q0RFNyRFNyRFNyRFNyRFNyRFNyRFNyRFNyRAAAAgEAgABBQcEAgIKCwMJBwUBAAMBAgMRBBITFSExQYIHEhUeFRMjTBkaG0wdJz0kMjU+O0wIKSBQEAAAgEAgABBQcEAgIKCwMJBwUBAAMBAgMRBBITFSExQYIHEhUeFRMjTBkaG0wdJz0kMjU+O0wIKSBQERAQAQEBBAQERAQAQEBBAAAAABAQEAAQEBAQERAQAQEBBAQERAQAQEBBAAAAhEQEREEABEQEREEABEQEREEAAAAAiIiIiIgIiIiIiAiIgIAAAAAAAAAAAAf/9k=" alt="Project 2">
+                <div class="project-details">
+                    <h3>Project 2: Interactive Form</h3>
+                    <p>A dynamic web form with client-side validation using JavaScript.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Billa Dev. Contact: <a href="mailto:haha@gmail.com">haha@gmail.com</a></p>
+    </footer>
+
+    <script>
+        document.title = 'Billa_dev';
+    </script>
+</body>
+</html>
